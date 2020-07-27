@@ -2,11 +2,20 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+a {
+  text-decoration: none;
+  color: grey;
+}
+
+.logo , .main-nav , .second-nav , .aside-bottom {
+  margin-left: 20px;
 }
 
 .wrapper {
   height: 100vh;
-  background-color: blue;
+  background-color: black;
 }
 
 main {
@@ -14,18 +23,13 @@ main {
   display: flex;
 }
 
-
-.box {
-  background-color: green;
-  height: 100px;
-  width: 50px;
-}
 aside {
-  background-color: green;
+  background-color: black;
   width: 300px;
   height: 100%;
   display: flex;
   flex-direction: column;
+  color: grey;
 }
 
 footer {
@@ -35,7 +39,7 @@ footer {
 }
 
 .main-content {
-  background-color: yellow;
+  background-color: #141922;
   height: 100%;
   width: calc(100% - 300px);
   overflow-y: auto;
@@ -47,7 +51,7 @@ footer {
   top: 0;
   right: 0;
   height: 80px;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.9);
   width: calc(100% - 300px);
   z-index: 1;
   text-align: right;
@@ -59,17 +63,20 @@ footer {
 }
 
 .logo {
-  background-color: blue;
+  background-color: black;
+  height: 80px;
+  line-height: 80px;
+  margin-bottom: 20px;
 }
 .main-nav {
-  background-color: orange;
+  background-color: black;
 }
 .second-nav {
-  background-color: grey;
+  background-color: black;
   overflow: hidden;
 }
 .aside-bottom {
-  background-color: lightblue;
+  background-color: black;
   margin-top: auto;
   flex-shrink: 0;
   height: 80px;
@@ -80,4 +87,113 @@ footer {
 }
 .title-playlist {
   height: 50px;
+}
+/* .logo i {
+  font-size: 50px;
+  color: white;
+} */
+.logo img {
+  width: 130px;
+  height: auto;
+  vertical-align: middle;
+}
+/* MAIN NAV */
+.main-nav li a {
+  font-size: 17px;
+  padding: 10px;
+  color: grey;
+}
+.main-nav li:hover a{
+  border-left: 2px solid #ADFF2F;
+  color: white;
+}
+.main-nav li {
+margin-bottom: 10px;
+list-style: none;
+}
+
+aside h3 {
+  margin: 10px 0;
+  color: white;
+}
+
+/* SECOND NAV */
+.title-playlist i{
+  color: black;
+  background-color: #6C6C6C;
+  padding: 10px;
+  margin-right: 10px;
+}
+.playlist li{
+  margin-top: 20px;
+}
+.playlist li:hover a{
+  color: white;
+}
+.title-playlist:hover i{
+  background-color: white;
+}
+.title-playlist:hover a{
+  color: white;
+}
+.playlist a {
+  font-size: 12px;
+  font-weight: bold;
+}
+.title-playlist  {
+  margin-bottom: 10px;
+}
+/* ASIDE BOTTOM */
+.aside-bottom a {
+  font-size: 15px;
+}
+.aside-bottom hr{
+  width: calc(100% - 20px);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.aside-bottom a:hover {
+  color: white;
+}
+.aside-bottom .fa-user {
+  border-radius: 100%;
+  border: 1px solid white;
+  padding: 5px;
+  color: white;
+  background-color: grey;
+}
+
+/* MAIN CONTENT */
+
+/* UPGRADE BAR */
+.upgrade .btn {
+  color: white;
+  border-radius: 20px;
+  padding: 10px 15px;
+  border: 2px solid white;
+  font-size: 12px;
+}
+
+/* SECTION MUSIC LIST */
+.music-list {
+  display: flex;
+  margin-top: 80px;
+  justify-content: center;
+}
+
+.music-list a {
+  font-size: 15px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+.music-list a:hover {
+  color: white;
+}
+
+.music-list a:hover:after {
+  content: '';
+  border: 1px solid #ADFF2F;
+  display: block;
+  width: 30px;
+  margin:auto;
 }
