@@ -264,3 +264,124 @@ h6 {
   border-radius: 50%;
 }
 /* FOOTER */
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #282828;
+}
+.footer-left {
+  display: flex;
+  margin: 15px;
+}
+.footer-left img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.nomebrano {
+  margin-top: 10px;
+}
+.footer-left i {
+  margin-top: 10px;
+  margin-right: 10px;
+  color: grey;
+}
+.footer-left .fa-heart {
+  margin-left: 40px;
+}
+.fa-heart:hover {
+  color: red;
+}
+footer h4 {
+  color: white;
+}
+
+.footer-central .player-top i {
+  color: white;
+  font-size: 15px;
+  margin: 15px;
+}
+
+.fa-angle-left {
+  border-left: 3px solid white;
+}
+.fa-angle-right {
+  border-right: 3px solid white;
+}
+.footer-central {
+  text-align: center;
+}
+.line {
+  background-color: #5A5A5A;
+  height: 5px;
+  width: 350px;
+  margin: 5px 30px;
+  border-radius: 5px;
+  position: relative;
+}
+.player-bottom {
+  display: flex;
+}
+.player-bottom p {
+  color: white;
+  font-size: 10px;
+}
+.line-grey {
+  background-color: white;
+  height: 5px;
+  width: 90px;
+  position: absolute;
+  border-radius: 5px;
+}
+.line-grey:hover {
+  background-color: lime;
+}
+.fa-circle {
+  display: none;
+  position: absolute;
+  font-size: 12px;
+  right: -10px;
+  top: -3px;
+  color: white;
+}
+.line-grey:hover .fa-circle {
+  display: block;
+}
+
+/* FOOTER RIGHT */
+.footer-right {
+  display: flex;
+  margin-top: 25px;
+}
+.small-line {
+  background-color: #5A5A5A;
+  height: 5px;
+  width: 100px;
+  margin: 5px 20px;
+  border-radius: 5px;
+}
+.footer-right i {
+  margin-left: 15px;
+  color: white;
+}
+.line-volume {
+  background-color: white;
+  height: 5px;
+  width: 30px;
+  position: absolute;
+  border-radius: 5px;
+}
+.line-volume:hover .fa-circle {
+  display: block;
+}
+.line-volume:hover {
+  background-color: lime;
+}
+/* RESPONSIVE */
+@media screen and (max-width: 1278px) and (min-width: 968px){
+}
+
+@media screen and (max-width: 968px){
+}
