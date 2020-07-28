@@ -198,10 +198,10 @@ aside h3 {
 }
 
 /* SECTION RECENTLY PLAYED */
-.recently_played {
+.recently_played , .johndoe , .popular-artist {
   margin: 20px 10px;
 }
-.recently_played h2 {
+h2 {
   color: white;
 }
 .img_main_content {
@@ -255,3 +255,12 @@ aside h3 {
   font-size: 10px;
   color: grey;
 }
+
+h6 {
+  color: grey;
+}
+
+.popular img {
+  border-radius: 50%;
+}
+/* FOOTER */
