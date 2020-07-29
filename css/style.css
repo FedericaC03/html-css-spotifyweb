@@ -391,8 +391,12 @@ footer {
   max-width: 100%;
   flex-wrap: wrap;
 }
-
-
+.line {
+  width: 230px;
+  margin: 5px 20px;
+}
+.small-line {
+  width: 60px;
 }
 @media screen and (max-width: 768px){
   .div_img{
@@ -403,9 +407,25 @@ footer {
 footer {
   flex-wrap: wrap;
 }
+.line {
+  width: 150px;
+  margin: 5px 10px;
+}
+.small-line {
+  width: 50px;
+}
+aside {
+  width: 270px;
+}
+.main-content {
+  width: 100%;
+}
+.upgrade {
+  width: 78%;
+}
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 550px){
   footer {
     flex-wrap: wrap;
   }
