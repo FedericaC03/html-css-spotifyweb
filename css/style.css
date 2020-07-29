@@ -179,7 +179,8 @@ aside h3 {
 .music-list {
   margin-top: 100px;
   margin-bottom: 30px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 .music-list a {
@@ -203,9 +204,11 @@ aside h3 {
 .recently_played , .johndoe , .popular-artist {
   margin: 20px 10px;
 }
+
 h2 {
   color: white;
 }
+
 .img_main_content {
   display: flex;
 }
@@ -215,12 +218,15 @@ h2 {
   text-align: center;
   position: relative;
 }
+
 .div_img:hover .play_hover {
   opacity:1;
 }
+
 .div_img:hover img {
   opacity: 0.5;
 }
+
 .play_hover {
   opacity: 0;
   color: white;
@@ -230,6 +236,7 @@ h2 {
   left: 50%;
   transform: translate(-50%, -100%);
 }
+
 .div_img img {
   width: 90%;
   display: block;
@@ -278,10 +285,12 @@ footer {
   align-items: center;
   padding: 0 20px;
 }
+
 .footer-left {
   display: flex;
   margin: 15px;
 }
+
 .footer-left img {
   width: 50px;
   height: 50px;
@@ -291,11 +300,13 @@ footer {
 .nomebrano {
   margin-top: 10px;
 }
+
 .footer-left i {
   margin-top: 10px;
   margin-right: 10px;
   color: grey;
 }
+
 .footer-left .fa-heart {
   margin-left: 40px;
 }
@@ -313,12 +324,15 @@ footer h4 {
 .fa-angle-left {
   border-left: 3px solid white;
 }
+
 .fa-angle-right {
   border-right: 3px solid white;
 }
+
 .footer-central {
   text-align: center;
 }
+
 .line {
   background-color: #5A5A5A;
   height: 5px;
@@ -327,13 +341,16 @@ footer h4 {
   border-radius: 5px;
   position: relative;
 }
+
 .player-bottom {
   display: flex;
 }
+
 .player-bottom p {
   color: white;
   font-size: 10px;
 }
+
 .line-grey {
   background-color: white;
   height: 5px;
@@ -341,9 +358,11 @@ footer h4 {
   position: absolute;
   border-radius: 5px;
 }
+
 .line-grey:hover {
   background-color: #ADFF2F;
 }
+
 .fa-circle {
   display: none;
   position: absolute;
@@ -352,6 +371,7 @@ footer h4 {
   top: -3px;
   color: white;
 }
+
 .line-grey:hover .fa-circle {
   display: block;
 }
@@ -360,6 +380,7 @@ footer h4 {
 .footer-right {
   display: flex;
 }
+
 .small-line {
   background-color: #5A5A5A;
   height: 5px;
@@ -367,6 +388,7 @@ footer h4 {
   margin: 5px 20px;
   border-radius: 5px;
 }
+
 .footer-right i {
   margin-left: 15px;
   color: white;
@@ -385,17 +407,21 @@ footer h4 {
 .img_main_content{
   flex-wrap: wrap;
 }
+
 .div_img{
   max-width: calc(100%/4);
   padding: 5px;
   margin-bottom: 20px;
 }
+
 .footer-right , .footer-left {
   width:150px;
 }
+
 .footer-central {
   width: 40%;
 }
+
 footer {
   flex-wrap: wrap;
   width: 100%;
@@ -411,32 +437,41 @@ footer {
 aside {
   width: 270px;
 }
+
 .main-content {
   width: 100%;
 }
+
 .upgrade {
   width: 78%;
 }
+
 .line {
   margin: 5px 10px;
 }
+
 .footer-left img {
   width: 40px;
   height: 40px;
 }
+
 .fa-folder {
   align-self: flex-end;
   margin-left: -25px;
 }
+
 #heart {
   margin-left: 20px;
 }
+
 .nomebrano {
   margin:0;
 }
+
 #playertop i {
   margin: 5px;
 }
+
 footer {
   padding: 0 5px;
 }
@@ -446,13 +481,16 @@ footer {
   flex-wrap: wrap;
   width: 100%;
 }
+
 .d-none-m{
   display: none;
 }
+
 aside {
   width:60px;
   z-index: 2;
 }
+
 .logo img {
   width: 40px;
   height: 40px;
@@ -461,26 +499,33 @@ aside {
 .main-content {
   width: 100%;
 }
+
 .upgrade {
   width: 100%;
 }
+
 .d-block-m {
   display: block;
 }
+
 .download {
   margin-bottom: 20px;
 }
+
 aside i {
   color: white;
 }
+
 .logo {
   width:auto;
   height: auto;
   margin-right: 10px;
 }
+
 .main-nav , .aside-bottom {
   margin-left: 15px;
 }
+
 .fa-arrow-circle-down {
   margin-left: 5px;
 }
