@@ -15,21 +15,29 @@
    <main>
     <aside>
       <!-- LOGO -->
-      <div class="logo">
+      <div class="logo d-none-m">
         <img src="img/spotify-logo.png" alt="logo spotify">
+      </div>
+      <div class="logo d-block-m d-none-dt">
+        <img src="img/logo-small.svg" alt="logo spotify">
       </div>
       <!--/ LOGO -->
       <!-- MAIN NAV -->
       <nav class="main-nav">
-        <ul>
+        <ul class="d-none-m">
           <li><a href=""><i class="fas fa-house-user"></i> Home</a></li>
           <li><a href=""> <i class="fas fa-search"></i> Cerca</a></li>
           <li><a href=""><i class="fas fa-book"></i> Libreria</a></li>
         </ul>
+        <ul class="d-block-m d-none-dt">
+          <li><a href=""><i class="fas fa-house-user"></i></a></li>
+          <li><a href=""> <i class="fas fa-search"></i></a></li>
+          <li><a href=""><i class="fas fa-book"></i></a></li>
+        </ul>
       </nav>
       <!-- / MAIN NAV -->
       <!-- SECOND NAV -->
-      <nav class="second-nav">
+      <nav class="second-nav d-none-m">
         <div class="title-playlist">
           <h3>PLAYLIST</h3>
           <a href=""><i class="fas fa-plus"></i> Crea Playlist</a>
@@ -47,9 +55,13 @@
       </nav>
       <!-- / SECOND NAV -->
       <div class="aside-bottom">
-        <a href="#"><i class="fas fa-arrow-circle-down"></i> Installa app</a>
-        <hr>
-        <a href="#"><i class="fas fa-user"></i> Federica Cortese</a>
+        <a class="d-none-m" href="#"><i class="fas fa-arrow-circle-down"></i> Installa app</a>
+        <hr class="d-none-m">
+        <a class="d-none-m" href="#"><i class="fas fa-user"></i> Federica Cortese</a>
+
+        <a class="download d-block-m d-none-dt" href="#"><i class="fas fa-arrow-circle-down"></i></a>
+        <a class="user d-block-m d-none-dt" href="#"><i class="fas fa-user"></i></a>
+
       </div>
     </aside>
     <!-- MAIN CONTENT -->
@@ -64,7 +76,7 @@
         <a href="">IN EVIDENZA</a>
         <a href="">PODCAST</a>
         <a href="">CLASSIFICHE</a>
-        <a href="">GENERI E MOD</a>
+        <a href="">GENERI E MOOD</a>
         <a href="">NUOVE USCITE</a>
         <a href="">SCOPRI</a>
       </div>
@@ -139,16 +151,14 @@
                <div class="layover">
                  <i class="play_hover far fa-play-circle"></i>
                </div>
-               <h3>Heavy Metal</h3>
-               <p>Subtitle</p>
+               <h3>Release Radar</h3>
            </div>
            <div class="div_img">
               <img src="img/mixdaily.jpeg" alt="">
               <div class="layover">
                 <i class="play_hover far fa-play-circle"></i>
               </div>
-              <h3>Stranger Things Vol.1(a Netflix Original Series Soundtrack)</h3>
-              <p>Kyle Dixon & Michael Stein</p>
+              <h3>Daily Mix 1</h3>
            </div>
       </div>
     <!--/ CREATO PER JOHN DOE -->
